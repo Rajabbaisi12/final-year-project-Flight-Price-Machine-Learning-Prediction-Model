@@ -7,7 +7,7 @@ import pandas as pd
 
 app = Flask(__name__)
 model = pickle.load(open("Algeria_flights_prediction", "rb"))
-
+app.config.update(DEBUG=True)
 
 @app.route("/")
 @cross_origin()
