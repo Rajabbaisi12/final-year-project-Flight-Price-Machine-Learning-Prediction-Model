@@ -29,7 +29,7 @@ def predict():
         # scan_time
         Shours = int(pd.to_datetime(date_scan, format ="%Y-%m-%dT%H:%M").hour)
         Sminutes = int(pd.to_datetime(date_scan, format ="%Y-%m-%dT%H:%M").minute)
-        Sseconds = int(pd.to_datetime(date_scan, format ="%Y-%m-%dT%H:%M").seconds)
+       # Sseconds = int(pd.to_datetime(date_scan, format ="%Y-%m-%dT%H:%M").seconds)
         # print("Scan_Time : ",Shours, Sminutes, Sseconds)
 
 
@@ -37,14 +37,14 @@ def predict():
         # departure_time
         Dhours = int(pd.to_datetime(date_scan, format ="%Y-%m-%dT%H:%M").hour)
         Dminutes = int(pd.to_datetime(date_scan, format ="%Y-%m-%dT%H:%M").minute)
-        Dseconds = int(pd.to_datetime(date_scan, format ="%Y-%m-%dT%H:%M").seconds)
+      #  Dseconds = int(pd.to_datetime(date_scan, format ="%Y-%m-%dT%H:%M").seconds)
         # print("Departure_Time : ",Dhours, Dminutes, Dseconds)
 
         # arrival_time
         date_arr = request.form["arrival_time"]
         Ahours = int(pd.to_datetime(date_arr, format ="%Y-%m-%dT%H:%M").hour)
         Aminutes = int(pd.to_datetime(date_arr, format ="%Y-%m-%dT%H:%M").minute)
-        Aseconds = int(pd.to_datetime(date_arr, format ="%Y-%m-%dT%H:%M").seconds)
+       # Aseconds = int(pd.to_datetime(date_arr, format ="%Y-%m-%dT%H:%M").seconds)
         # print("Arrival_Time : ", Ahours, Amins, Aseconds)
 
         # Duration
@@ -1264,13 +1264,13 @@ def predict():
             scan_month,
             Shours,
             Sminutes,
-            Sseconds,
+            #Sseconds,
             Dhours,
             Dminutes,
-            Dseconds,
+           # Dseconds,
             Ahours,
             Aminutes,
-            Aseconds,
+          #  Aseconds,
             #Duration_hour,
             #Duration_mins,
             airline_name_Air_Canada,
