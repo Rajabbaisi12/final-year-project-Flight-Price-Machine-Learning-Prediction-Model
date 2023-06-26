@@ -11,7 +11,7 @@ app.config.update(DEBUG=True)
 
 @app.route("/")
 @cross_origin()
-def HOME():
+def home():
     return render_template("HOME.html")
 
 @app.route("/predict", methods = ["GET", "POST"])
