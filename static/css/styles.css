@@ -1,5 +1,5 @@
 body {
-    background-color: #AAE6FF;
+    background-color: blue;
     text-align: center;
 }
 
@@ -13,4 +13,14 @@ a {
 
 a:hover {
     color: #f0f0f0;
-  }
+}
+
+
+h3{
+    color: #f1f9f9;
+}
+
+
+p{
+    color: #f1f9f9;
+}
