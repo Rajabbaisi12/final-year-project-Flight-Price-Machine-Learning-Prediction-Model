@@ -1,0 +1,22 @@
+ # scan_date
+       # date_scan = request.form["scan_date"]
+        #scan_day = int(pd.to_datetime(date_scan, format="%Y-%m-%dT%H:%M").day)
+        #scan_month = int(pd.to_datetime(date_scan, format ="%Y-%m-%dT%H:%M").month)
+        # print("scan_date : ",scan_day, scan_month)
+
+
+        # scan_time
+        #Shours = int(pd.to_datetime(date_scan, format ="%Y-%m-%dT%H:%M").hour)
+        #Sminutes = int(pd.to_datetime(date_scan, format ="%Y-%m-%dT%H:%M").minute)
+        # print("scan_Time : ",Shours, Sminutes)
+
+        #scan_day,
+            #scan_month,
+            #Shours,
+            #Sminutes,
+
+                #price
+        price = int(request.form["price"])
+        #print(price)
+
+    price,
